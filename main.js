@@ -1,12 +1,15 @@
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD7X3F2WgpTXUQ5ui7b-RncXGIlAKONo0Q",
-  authDomain: "bhut-890ca.firebaseapp.com",
-  projectId: "bhut-890ca",
-  storageBucket: "bhut-890ca.appspot.com",
-  messagingSenderId: "457024638784",
-  appId: "1:457024638784:web:c479aa78d48612cff334a5"
-};
+    apiKey: "AIzaSyD7X3F2WgpTXUQ5ui7b-RncXGIlAKONo0Q",
+    authDomain: "bhut-890ca.firebaseapp.com",
+    projectId: "bhut-890ca",
+    storageBucket: "bhut-890ca.appspot.com",
+    messagingSenderId: "457024638784",
+    appId: "1:457024638784:web:f79cfd9240a43afdf334a5",
+  };
+
+  // Initialize Firebase
+
 var payer;
 var hac 
 var stripe = Stripe("pk_test_51NH3g6SCYWZK4a2x7jnPg5PBwXKfU9pLT6EjfjpoNTBBppv1SbOqSwOj5lKwIe8QB7y8kCemfpvizurmQJ3jkfZ900qlvddqw2");
